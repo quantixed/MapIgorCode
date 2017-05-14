@@ -1,0 +1,338 @@
+{
+ "name": "Functions",
+ "children": [
+  {
+   "name": "ChaosCreation",
+   "children": [
+    {"name": "ChaosGenerator(nPnts,iter)"},
+    {"name": "set1Points(w0,nPnts)"}
+   ]
+  },
+  {
+   "name": "CheckWaveInfo",
+   "children": [
+    {"name": "CheckWaveInfo()"}
+   ]
+  },
+  {
+   "name": "ColocAnalysis",
+   "children": [
+    {"name": "MakeFinalImage(nCh)"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "MakeColocMovie(m0,m1,subFolderName)"},
+    {"name": "MakeThatMask(m0,xPos,yPos,zPos)"},
+    {"name": "Make2ChMasks(nCh)"},
+    {"name": "SpotPlotOverTime(mList,divVar)"},
+    {"name": "Coloc(m0,m1,bg0,bg1,frameNum)"},
+    {"name": "MakeMaskedImagesAndAnalyse(nCh)"},
+    {"name": "MakeColocMovie(m0,m1,subFolderName)"},
+    {"name": "LoadAllFiles(path)"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "myIO_Panel()"}
+   ]
+  },
+  {
+   "name": "FerriTag",
+   "children": [
+    {"name": "MakeFTPlot()"},
+    {"name": "LookAtPDFs(small,big)"},
+    {"name": "PMMaker()"},
+    {"name": "MedCalc()"},
+    {"name": "TidyUpPlots(sphere)"},
+    {"name": "PowerTest(small, big)"},
+    {"name": "ColorTraces( rev, colorTable )"},
+    {"name": "FlushAllDist()"},
+    {"name": "FerriTag(rr,ss,thick,iter)"},
+    {"name": "RunMultiple(nTrials)"}
+   ]
+  },
+  {
+   "name": "FT3Procs",
+   "children": [
+    {"name": "FilterQuality()"},
+    {"name": "MakeHistos(mWave)"},
+    {"name": "LoadDataFromExcel()"},
+    {"name": "MakeFT3ColorWave()"},
+    {"name": "Rounder(value, numSigDigits)"},
+    {"name": "MakeMainFigurePlots()"},
+    {"name": "DoFT3Stats()"},
+    {"name": "MakeLayoutForStackPlot()"},
+    {"name": "StackEmUp(wList)"},
+    {"name": "MitoticTiming()"},
+    {"name": "Rounder(value, numSigDigits)"}
+   ]
+  },
+  {
+   "name": "FTAnalysisSNR",
+   "children": [
+    {"name": "CleanOutputs()"},
+    {"name": "PlotCoefs()"},
+    {"name": "LoadTIFFFilesForAnalysis()"},
+    {"name": "CheckScaleBar(matB)"},
+    {"name": "CheckScaleBar(matB)"},
+    {"name": "CheckScaleBar(matB)"},
+    {"name": "WaveChecker()"},
+    {"name": "LoadTIFFFilesGetScales(nm)"},
+    {"name": "PlotSNRs()"}
+   ]
+  },
+  {
+   "name": "GPX2Igor",
+   "children": [
+    {"name": "PlotCatEle()"},
+    {"name": "CategorizeTracks()"},
+    {"name": "ElevationChecker()"},
+    {"name": "PlotOutTracks()"},
+    {"name": "ConvertUTC2Time(UTCWave)"},
+    {"name": "GPXReader(ExpDiskFolderName,ThisFile)"},
+    {"name": "LoadGPXFiles()"},
+    {"name": "MakeXPathStr(xpathstr0,xpathstr1)"},
+    {"name": "RunGPXAnalysis()"},
+    {"name": "PlotCatTracks()"},
+    {"name": "MakeMasterWave()"},
+    {"name": "MakeMasterMatrix()"},
+    {"name": "PlotOutTracks()"},
+    {"name": "FormatPlot(gName)"},
+    {"name": "PlotAllTracks()"},
+    {"name": "FormatPlot(gName)"},
+    {"name": "CyclingGPXAnalysis()"},
+    {"name": "MakeTopo()"}
+   ]
+  },
+  {
+   "name": "GScholar",
+   "children": [
+    {"name": "CoastClear()"},
+    {"name": "LoadNiceCTableW()"},
+    {"name": "CoastClear()"},
+    {"name": "MakePaperWaves()"},
+    {"name": "ConvertCiteWavesToNum()"},
+    {"name": "GScholarLoad()"},
+    {"name": "GScholarLoad()"},
+    {"name": "GScholar()"}
+   ]
+  },
+  {
+   "name": "HowManyFrames",
+   "children": [
+    {"name": "MultiTiffLoader()"},
+    {"name": "HowManyFrames(pathName, nameWaveAfterFileName, killImages, displayImages)"}
+   ]
+  },
+  {
+   "name": "ImarisCSVInput",
+   "children": [
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "OpenDragNDropBox()"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "FormatPlot(plotName)"},
+    {"name": "FileChecker()"},
+    {"name": "SubtractionPlots(Area0,Area2,nCh1,nCh2)"},
+    {"name": "FormatPlot(plotName)"},
+    {"name": "ChVsChPlots(Area0,Area2,nCh1,nCh2)"},
+    {"name": "PlotOut(Area0,Area2,nCh1,nCh2)"},
+    {"name": "TheSelecter()"},
+    {"name": "OpenDragNDropBox()"},
+    {"name": "CSVLoader()"},
+    {"name": "LoadImarisCSV()"},
+    {"name": "ListBoxProc_DragNDropLB(lba) : ListBoxControl"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "ListBoxProc_DragNDropLB(lba) : ListBoxControl"}
+   ]
+  },
+  {
+   "name": "IMODModelAnalysis",
+   "children": [
+    {"name": "MakeSummaryLayout()"},
+    {"name": "UserCursorAdjust_ContButtonProc(ctrlName) : ButtonControl"},
+    {"name": "CollectAllMeasurements()"},
+    {"name": "UserCursorAdjust_ContButtonProc(ctrlName) : ButtonControl"},
+    {"name": "OutsideVsInside()"},
+    {"name": "OverlayAllPits()"},
+    {"name": "ShowMePlot(folderName)"},
+    {"name": "MakeSummaryLayout()"},
+    {"name": "PlotRotatedPit(folderName)"},
+    {"name": "RotatePits()"},
+    {"name": "MakeScatterPlots()"},
+    {"name": "MakeModelCCP()"},
+    {"name": "MakeSummaryLayout()"},
+    {"name": "ContourLength(m0)"},
+    {"name": "ProcessAllModels()"},
+    {"name": "ContourCalcs()"},
+    {"name": "UserCursorAdjust_ContButtonProc(ctrlName) : ButtonControl"},
+    {"name": "Distance2PM()"},
+    {"name": "UserCursorAdjust_ContButtonProc(ctrlName) : ButtonControl"},
+    {"name": "MarkOutPit()"},
+    {"name": "MakeSummaryLayout()"},
+    {"name": "ScaleCoords(matA)"},
+    {"name": "MakeObjectContourWaves()"},
+    {"name": "LoadIMODModels()"},
+    {"name": "ShowMePlot(folderName)"},
+    {"name": "IMODModelAnalysis()"}
+   ]
+  },
+  {
+   "name": "IMODModelProcessor",
+   "children": [
+    {"name": "CheckScaleBar(matB)"},
+    {"name": "ProcessTIFFs()"},
+    {"name": "ScaleIt(txtName)"},
+    {"name": "PlotFTData()"},
+    {"name": "ProcessIMODModels()"},
+    {"name": "CheckScaleBar(matB)"},
+    {"name": "CheckScaleBar(matB)"}
+   ]
+  },
+  {
+   "name": "LoadColorTableCSVs",
+   "children": [
+    {"name": "TileLayout(nFiles,plotNum)"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "LoadColorTables()"},
+    {"name": "TileLayout(nFiles,plotNum)"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "RenameCTs()"}
+   ]
+  },
+  {
+   "name": "LoadMigration",
+   "children": [
+    {"name": "GetProcedureVersion(procedureWinTitleStr)"},
+    {"name": "OrderGraphs()"},
+    {"name": "MakeTracks(pref,tStep,pxSize)"},
+    {"name": "LoadMigration(pref)"},
+    {"name": "Migrate()"},
+    {"name": "hexcolor_blue(hex)"},
+    {"name": "hexcolor_green(hex)"},
+    {"name": "hexcolor_red(hex)"}
+   ]
+  },
+  {
+   "name": "MigrationAuxProcs",
+   "children": [
+    {"name": "StitchIVbin()"},
+    {"name": "StitchIVbin()"},
+    {"name": "StitchIV()"}
+   ]
+  },
+  {
+   "name": "Montages",
+   "children": [
+    {"name": "MontageMaker(masterImage,nRows,nColumns,grout,pathString,fileName)"},
+    {"name": "MontageSetUp()"}
+   ]
+  },
+  {
+   "name": "MTLoader",
+   "children": [
+    {"name": "MakePlane()"},
+    {"name": "SpherCoord()"},
+    {"name": "LowPoint()"},
+    {"name": "Straight(phi,theta)"},
+    {"name": "ShowMe(key)"},
+    {"name": "PullOut(expA, [expB])"},
+    {"name": "BundleStats()"},
+    {"name": "MTLoader()"}
+   ]
+  },
+  {
+   "name": "ParseFAData",
+   "children": [
+    {"name": "MakeSummaryLayout(plotList,numDataFolders)"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "ListBoxProc_DragNDropLB(lba) : ListBoxControl"},
+    {"name": "OpenDragNDropBox()"},
+    {"name": "MakeSummaryLayout(plotList,numDataFolders)"},
+    {"name": "MakeSummaryLayout(plotList,numDataFolders)"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"},
+    {"name": "ListBoxProc_DragNDropLB(lba) : ListBoxControl"},
+    {"name": "MakeSummaryLayout(plotList,numDataFolders)"},
+    {"name": "MakeBoxPlot(OneDPlotName,i)"},
+    {"name": "CrunchNumbers()"},
+    {"name": "OpenDragNDropBox()"},
+    {"name": "MoveWavesIntoFolders()"},
+    {"name": "FigureOutConditions()"},
+    {"name": "LoadFAData()"},
+    {"name": "ButtonProc(ctrlName) : ButtonControl"}
+   ]
+  },
+  {
+   "name": "ParseFTData",
+   "children": [
+    {"name": "TileLayout(nFiles,plotNum)"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "GetPixelData()"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "CalculateDensities()"},
+    {"name": "CountValidParticles()"},
+    {"name": "TileLayout(nFiles,plotNum)"},
+    {"name": "ImagePlusSpots(ParentImgMat, imgNum)"},
+    {"name": "CheckScale(txtName)"},
+    {"name": "ParseComDetData(cdMat,imgMat,maskMat)"},
+    {"name": "GetVolumes(volumeWave,maskMat,i)"},
+    {"name": "ProcessMask(maskMat)"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "KillCMaps()"},
+    {"name": "LoadTIFFsAndComDet()"},
+    {"name": "AutoFerriTag()"},
+    {"name": "MakeSummaryLayout(nFiles,plotNum)"},
+    {"name": "CoastClear()"},
+    {"name": "AutoFerriTag()"},
+    {"name": "CoastClear()"}
+   ]
+  },
+  {
+   "name": "RandomiseImage",
+   "children": [
+    {"name": "RandomiseImage(inWave)"}
+   ]
+  },
+  {
+   "name": "SimulateEllipses",
+   "children": [
+    {"name": "PlotIt()"},
+    {"name": "DoEllipse(num)"},
+    {"name": "UniformSphere(num,Radius)"},
+    {"name": "DoSim(num)"}
+   ]
+  },
+  {
+   "name": "SNR3View",
+   "children": [
+    {"name": "DisplaySNRsForAll()"},
+    {"name": "SNRTXTLoader()"},
+    {"name": "SNRLoadAndDisplay()"}
+   ]
+  },
+  {
+   "name": "TimeStretched",
+   "children": [
+    {"name": "ScaleThem()"},
+    {"name": "TimeStretched(prefix,aa,bb,cc,dd)"}
+   ]
+  },
+  {
+   "name": "uTrackInput",
+   "children": [
+    {"name": "ch1Loader(Attr)"}
+   ]
+  },
+  {
+   "name": "VectorAuxProcs",
+   "children": [
+    {"name": "CheckVectors()"},
+    {"name": "PlotSlice(zsec)"},
+    {"name": "Rounder(value, numSigDigits)"},
+    {"name": "CompareAlpha(w0c,w1c)"},
+    {"name": "CompareAlphaAll()"},
+    {"name": "CompareAlphaAll()"},
+    {"name": "OverwriteElliWaves()"},
+    {"name": "UseLineModel()"},
+    {"name": "Rounder(value, numSigDigits)"}
+   ]
+  }
+ ]
+}
