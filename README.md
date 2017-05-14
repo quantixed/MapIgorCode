@@ -21,7 +21,9 @@ sed -i -e 's/.ipf:Function /  /g' funcfile.txt
 
 ![Working example of Igor code map](https://github.com/quantixed/MapIgorCode/blob/master/output.gif)
 
-** Notes
+### Notes
 
 1. The tab character is used in `sed`. Use ctrl+v and tab to get it if copy paste or .sh does not work.
 2. The d3.js example is from [here](https://gist.github.com/mbostock/4339083) and [working example](https://bl.ocks.org/mbostock/4339083).
+3. Only Functions are mapped, Static Functions and other stuff are not, but feel free to modify.
+4. Converting tsv to json using this Igor code works but is a bit quick and dirty: might not work in all cases. 
